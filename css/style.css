@@ -63,10 +63,6 @@
     color: var(--branco);
 } 
 
-.titulo-main{
-    font-family: var(--titulos);
-}
-
 .versiculo{
     font-family: var(--versiculo);
 }
