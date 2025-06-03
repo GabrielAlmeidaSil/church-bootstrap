@@ -42,15 +42,9 @@
     gap: 7px;
 }
 
-.nav-link{
+.navbar .navbar-nav .nav-link {
     color: var(--branco);
 }
-
-.link-light:hover{
-    color: red;
-}
-
-
 
 
 
