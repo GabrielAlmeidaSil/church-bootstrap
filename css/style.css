@@ -71,7 +71,19 @@
     font-family: var(--versiculo);
 }
 
-
-
-
 /* FIM MAIN */
+
+
+/* SOBRE */
+
+.img-about{
+    width: 500px;
+    height: 500px;
+}
+
+.paragrafo-about{
+    text-align: justify;
+    line-height: 2rem;
+}
+
+/* FIM SOBRE */
