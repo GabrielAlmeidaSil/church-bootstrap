@@ -17,7 +17,7 @@
     --corLogo: #7363EA;
     --header: #2F2965;
     --hover: #B57EDC;
-    --intercalado: #E6CCFF;
+    --intercalado: #ECECEC;
     --footer: #2F2965;
     --branco: #fff;
     --preto: #1C1C1C;
@@ -74,10 +74,10 @@
 /* FIM MAIN */
 
 
-/* SOBRE */
+/* ABOUT */
 
 .titulo{
-    font-family: var(--paragrafos);
+    font-family: var(--navBotao);
     color: var(--preto);
 }
 
@@ -97,7 +97,7 @@
     color: var(--branco);
 }
 
-/* FIM SOBRE */
+/* FIM ABOUT */
 
 .section-agenda{
     background: var(--intercalado);
@@ -105,8 +105,15 @@
 
 .card-agenda{
     font-family: var(--paragrafos);
-    border: 2px solid var(--preto);
+    background: var(--branco);
+    border-radius: 10px;
     padding: 10px;
+    
+}
+
+.card-agenda:hover{
+    transform: scale(1.02);
+    transition: .2s;
 }
 
 .btn-agenda{
