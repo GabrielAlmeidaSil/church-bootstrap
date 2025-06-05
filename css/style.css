@@ -99,18 +99,28 @@
 
 /* FIM SOBRE */
 
-
-
-/* AGENDA */
-
 .section-agenda{
     background: var(--intercalado);
 }
 
-.linha{
-    border-top: 2px solid var(--preto);
-    width: 100%;
-    margin-top: 8px;
+.card-agenda{
+    font-family: var(--paragrafos);
+    border: 2px solid var(--preto);
+    padding: 10px;
 }
+
+.btn-agenda{
+    background: var(--header);
+    color: var(--branco);
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 100px;
+}
+
+/* AGENDA */
+
+
 
 /* FIM AGENDA */
