@@ -20,6 +20,7 @@
     --hover: #1f1a4f;
     --intercalado: #ECECEC;
     --footer: #2F2965;
+    --linkfooter: #A9B0B3;
     --branco: #fff;
     --preto: #1C1C1C;
 }
@@ -179,6 +180,21 @@
     background: var(--preto);
     color: var(--branco);
     font-family: var(--navBotao);
+}
+
+footer a{
+    color: var(--linkfooter);
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--branco);
+    transition: .3s;
+}
+
+.contato p{
+    margin-top: 20px;
 }
 
 /* FIM FOOTER */
