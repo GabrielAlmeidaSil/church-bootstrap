@@ -17,7 +17,7 @@
 :root{
     --corLogo: #7363EA;
     --header: #2F2965;
-    --hover: #B57EDC;
+    --hover: #1f1a4f;
     --intercalado: #ECECEC;
     --footer: #2F2965;
     --branco: #fff;
@@ -104,6 +104,9 @@
 
 /* FIM ABOUT */
 
+
+
+/* EVENTOS */
 .section-agenda{
     background: var(--intercalado);
 }
@@ -121,6 +124,15 @@
     transition: .2s;
 }
 
+.nome-evento:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.icone-evento{
+    color: var(--header);
+}
+
 .btn-agenda{
     background: var(--header);
     color: var(--branco);
@@ -133,8 +145,9 @@
     border: none;
 }
 
-/* AGENDA */
+.btn-agenda:hover {
+  background-color: var(--hover);
+  transition: .3s;
+}
 
-
-
-/* FIM AGENDA */
+/* FIM EVENTOS */
