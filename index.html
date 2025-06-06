@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
     <title>Church</title>
 
     <!-- Link CSS -->
@@ -88,7 +91,7 @@
     <section id="about" class="about container mt-5">
         <div class="row align-items-center">
             <div class="col-12 col-lg-5">
-                <img src="img/about-church.jpg" alt="" class="img-fluid rounded img-about shadow d-block mx-auto">
+                <img src="img/img-about.jpg" alt="" class="img-fluid rounded img-about shadow d-block mx-auto">
             </div>
 
             <div class="col-12 col-lg-7">
@@ -113,10 +116,20 @@
     <!-- EVENTOS -->
     <section class="container-fluid section-agenda" id="eventos">
         <div class="container my-5 py-5">
-            <div class="d-flex align-items-center mb-4">
-                <h2 class="titulo pt-5 me-3">Eventos</h2>
-                <div class="flex-grow-1 border-bottom border-dark mt-5 d-none d-md-block"></div>
+            <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+                <!-- titulo e linha -->
+                <div class="d-flex align-items-center flex-grow-1">
+                    <h2 class="titulo pt-5 me-3 mb-0">Eventos</h2>
+                    <div class="flex-grow-1 border-bottom border-dark mt-5 d-none d-md-block"></div>
+                </div>
+
+                <!-- link -->
+                <a href="#agenda" class="text-decoration-none fw-semibold text-dark pt-5">
+                    Ver todos os eventos
+                    <i class="bi bi-arrow-right icone-evento fs-5"></i>
+                </a>
             </div>
+
 
             <div class="card-agenda mt-5 shadow">
                 <div class="row align-items-center text-center text-lg-start">
