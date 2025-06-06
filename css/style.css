@@ -116,6 +116,11 @@
     color: var(--branco);
     border-top: 2px solid var(--preto);
     border-bottom: 2px solid var(--preto);
+    height: 300px;
+}
+
+.titulo-loja{
+    font-family: var(--titulo-seção);
 }
 
 /* FIM LOJA */
@@ -160,7 +165,7 @@
     border: none;
 }
 
-.btn-agenda:hover {
+.btn-geral:hover {
   background-color: var(--hover);
   transition: .3s;
 }
