@@ -6,7 +6,8 @@
 /* FONTES */
 :root{
     --navBotao: "Inter Tight", sans-serif;
-    --titulos: "Montserrat Alternates", sans-serif;
+    --titulo-header: "Montserrat Alternates", sans-serif;
+    --titulo-seção: "Inter Tight", sans-serif;
     --paragrafos: "Open Sans", sans-serif;
     --versiculo: "Playfair Display", serif;
     --footer: "Inter Tight", sans-serif;
@@ -23,6 +24,15 @@
     --preto: #1C1C1C;
 }
 
+
+.titulo{
+    font-family: var(--titulo-seção);
+    color: var(--preto);
+}
+
+
+
+
 /* HEADER */
 
 .header{
@@ -32,7 +42,7 @@
 }
 
 .logo-header{
-    font-family: var(--titulos);
+    font-family: var(--titulo-header);
 }
 
 .img-header{
@@ -75,11 +85,6 @@
 
 
 /* ABOUT */
-
-.titulo{
-    font-family: var(--navBotao);
-    color: var(--preto);
-}
 
 .img-about{
     width: 500px;
