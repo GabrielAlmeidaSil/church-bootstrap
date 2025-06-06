@@ -105,6 +105,21 @@
 /* FIM ABOUT */
 
 
+/* LOJA */
+
+.loja{
+    background-image: url(../img/bg-loja.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--branco);
+    border-top: 2px solid var(--preto);
+    border-bottom: 2px solid var(--preto);
+}
+
+/* FIM LOJA */
+
 
 /* EVENTOS */
 .section-agenda{
@@ -133,7 +148,7 @@
     color: var(--header);
 }
 
-.btn-agenda{
+.btn-geral{
     background: var(--header);
     color: var(--branco);
     font-weight: bold;
