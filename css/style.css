@@ -171,3 +171,14 @@
 }
 
 /* FIM EVENTOS */
+
+
+/* FOOTER */
+
+.footer{
+    background: var(--preto);
+    color: var(--branco);
+    font-family: var(--navBotao);
+}
+
+/* FIM FOOTER */
