@@ -106,6 +106,17 @@
 /* FIM ABOUT */
 
 
+/* AGENDA */
+
+.dia-semana{
+    background: var(--header);
+    color: var(--branco);
+    border-radius: 100px;
+}
+
+/* FIM AGENDA */
+
+
 /* LOJA */
 
 .loja{
