@@ -18,6 +18,9 @@
 
     <!-- Link Icons BootStrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Link AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -77,8 +80,8 @@
     <main class="main d-flex align-items-center justify-content-center text-white text-center" id="inicio">
         <div class="container">
 
-            <p class="versiculo display-3">"E conhecerão a verdade, e a verdade os libertará."</p>
-            <p class="versiculo text-center fs-5"> — João 8:32</p>
+            <p class="versiculo display-3" data-aos="fade-down" data-aos-delay="150">"E conhecerão a verdade, e a verdade os libertará."</p>
+            <p class="versiculo text-center fs-5" data-aos="fade-down" data-aos-delay="250"> — João 8:32</p>
 
         </div>
     </main>
@@ -96,14 +99,14 @@
 
             <div class="col-12 col-lg-7">
                 <div class="container-fluid">
-                    <h2 class="titulo fw-semibold  mt-4">Sobre Nós</h2>
+                    <h2 class="titulo fw-semibold  mt-4" data-aos="fade-down" data-aos-delay="50">Sobre Nós</h2>
 
-                    <p class="paragrafo-about me-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+                    <p class="paragrafo-about me-2" data-aos="fade-down" data-aos-delay="150">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
                         dolores deleniti cupiditate placeat repudiandae tenetur. Nihil sint in maxime laborum, itaque,
                         esse expedita earum, mollitia unde quam dolore? Vitae rerum soluta assumenda accusantium facere
                         pariatur, doloremque dolore ipsa ab ullam nemo quam reprehenderit veniam.
                     </p>
-                    <p class="paragrafo-about me-2">
+                    <p class="paragrafo-about me-2" data-aos="fade-down" data-aos-delay="150">
                         Nesciunt quia animi
                         aliquam sapiente saepe! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
                         asperiores velit fugiat odio necessitatibus accusantium, natus in sit tempore, nobis, hic itaque
@@ -125,7 +128,8 @@
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-50"></div>
 
         <!-- Conteúdo -->
-        <div class="container text-center py-5 position-relative z-1 d-flex flex-column justify-content-center align-items-center h-100">
+        <div
+            class="container text-center py-5 position-relative z-1 d-flex flex-column justify-content-center align-items-center h-100">
             <div class="info-loja">
                 <h2 class="titulo-loja fw-semibold">LOJA</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ullam!</p>
@@ -157,7 +161,7 @@
             </div>
 
             <!-- EVENTO 1 -->
-            <div class="card-agenda mt-5 shadow">
+            <div class="card-agenda mt-5 shadow" data-aos="zoom-in">
                 <div class="row align-items-center text-center text-lg-start">
                     <!-- DATA -->
                     <div class="col-lg-2 col-12 text-center fs-4">23 <br> JAN</div>
@@ -179,7 +183,7 @@
             </div>
 
             <!-- EVENTO 2 -->
-            <div class="card-agenda mt-5 shadow">
+            <div class="card-agenda mt-5 shadow" data-aos="zoom-in">
                 <div class="row align-items-center text-center text-lg-start">
                     <!-- DATA -->
                     <div class="col-lg-2 col-12 text-center fs-4">08 <br> JUL</div>
@@ -201,7 +205,7 @@
             </div>
 
             <!-- EVENTO 3 -->
-            <div class="card-agenda mt-5 shadow">
+            <div class="card-agenda mt-5 shadow" data-aos="zoom-in">
                 <div class="row align-items-center text-center text-lg-start">
                     <!-- DATA -->
                     <div class="col-lg-2 col-12 text-center fs-4">24 <br> AGO</div>
@@ -259,22 +263,22 @@
                 <div class="col-12 col-md-3 mt-4">
                     <h3 class="fw-semibold">Redes Sociais</h3>
                     <div class="redes-sociais d-flex gap-4 fs-5 pt-2">
-                            <a href="#" class="link-start">
-                                <i class="bi bi-whatsapp"></i>
-                            </a>
+                        <a href="#" class="link-start">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
 
-                            <a href="#">
-                                <i class="bi bi-instagram"></i>
-                            </a>
+                        <a href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
 
-                            <a href="#">
-                                <i class="bi bi-facebook"></i>
-                            </a>
+                        <a href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a>
 
-                            <a href="#">
-                                <i class="bi bi-twitter-x"></i>
-                            </a>
-                        </div>
+                        <a href="#">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+                    </div>
                 </div>
 
                 <!-- Links Úteis -->
@@ -303,9 +307,10 @@
             </div>
             <hr>
             <p class="text-center">
-            &copy; 2025. Site desenvolvido para fins de prática HTML, CSS e Bootstrap. Desenvolvido por
-            <a href="https://github.com/GabrielAlmeidaSil" target="_blank"> <i class="bi bi-github"></i> Gabriel Almeida</a>
-        </p>
+                &copy; 2025. Site desenvolvido para fins de prática HTML, CSS e Bootstrap. Desenvolvido por
+                <a href="https://github.com/GabrielAlmeidaSil" target="_blank"> <i class="bi bi-github"></i> Gabriel
+                    Almeida</a>
+            </p>
         </div>
     </footer>
 
@@ -318,6 +323,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous">
         </script>
+
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
