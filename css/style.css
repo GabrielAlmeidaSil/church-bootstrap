@@ -32,6 +32,24 @@
 }
 
 
+.btn-geral{
+    background: var(--header);
+    color: var(--branco);
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+}
+
+.btn-geral:hover {
+  background-color: var(--hover);
+  transition: .3s;
+}
+
+
 
 
 /* HEADER */
@@ -108,11 +126,7 @@
 
 /* AGENDA */
 
-.dia-semana{
-    background: var(--header);
-    color: var(--branco);
-    border-radius: 100px;
-}
+
 
 /* FIM AGENDA */
 
@@ -165,22 +179,7 @@
     color: var(--header);
 }
 
-.btn-geral{
-    background: var(--header);
-    color: var(--branco);
-    font-weight: bold;
-    outline: none;
-    cursor: pointer;
-    text-align: center;
-    border-radius: 100px;
-    outline: none;
-    border: none;
-}
 
-.btn-geral:hover {
-  background-color: var(--hover);
-  transition: .3s;
-}
 
 /* FIM EVENTOS */
 
