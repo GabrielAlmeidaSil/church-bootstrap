@@ -105,6 +105,10 @@
 
 /* ABOUT */
 
+.about{
+    margin-bottom: 7rem;
+}
+
 .img-about{
     width: 500px;
     height: 500px;
@@ -142,7 +146,7 @@
     color: var(--branco);
     border-top: 4px solid var(--preto);
     border-bottom: 4px solid var(--preto);
-    height: 300px;
+    height: 402px;
 }
 
 .titulo-loja{
@@ -155,6 +159,8 @@
 /* EVENTOS */
 .section-eventos{
     background: var(--intercalado);
+    margin-top: 7rem;
+    margin-bottom: 7rem;
 }
 
 .card-eventos{
