@@ -153,21 +153,15 @@
 
 
 /* EVENTOS */
-.section-agenda{
+.section-eventos{
     background: var(--intercalado);
 }
 
-.card-agenda{
+.card-eventos{
     font-family: var(--paragrafos);
     background: var(--branco);
     border-radius: 10px;
     padding: 12px;
-    
-}
-
-.card-agenda:hover{
-    transform: scale(1.02);
-    transition: .2s;
 }
 
 .nome-evento:hover{
