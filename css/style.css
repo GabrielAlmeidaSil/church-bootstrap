@@ -26,6 +26,8 @@
 }
 
 
+/* GERAIS */
+
 .titulo{
     font-family: var(--titulo-seção);
     color: var(--preto);
@@ -49,6 +51,8 @@
   transition: .3s;
 }
 
+
+/* FIM GERAIS */
 
 
 
@@ -131,9 +135,19 @@
 
 /* AGENDA */
 
+.ende-titulo{
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.ende-titulo:hover{
+    text-decoration: underline;
+}
+
 .info-agenda{
     font-family: var(--navBotao);
     background: var(--intercalado);
+    border-left: 5px solid var(--hover);
 }
 
 .semana{
@@ -146,6 +160,8 @@
 .dia-semana{
     font-size: 1.9rem;
 }
+
+
 
 .texto-agenda{
     font-size: 1.3rem;
