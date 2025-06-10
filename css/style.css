@@ -29,6 +29,10 @@
 
 /* GERAIS */
 
+html {
+  scroll-padding-top: 100px; /* arrumar a navegação do meu header */
+}
+
 .titulo{
     font-family: var(--titulo-seção);
     color: var(--preto);
