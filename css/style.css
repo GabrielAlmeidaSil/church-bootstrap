@@ -136,11 +136,19 @@
     background: var(--intercalado);
 }
 
-.dia-semana{
+.semana{
     background: var(--hover);
     color: var(--branco);
     padding-top: 5px;
     border-radius: 100px;
+}
+
+.dia-semana{
+    font-size: 1.9rem;
+}
+
+.texto-agenda{
+    font-size: 1.3rem;
 }
 
 /* FIM AGENDA */
@@ -186,8 +194,9 @@
     text-decoration: underline;
 }
 
-.icone-evento{
+.icone{
     color: var(--header);
+    font-size: 1.4rem;
 }
 
 
