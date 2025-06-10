@@ -94,6 +94,7 @@
     background-size: cover;
     height: 100vh;
     color: var(--branco);
+    margin-bottom: 3rem;
 } 
 
 .versiculo{
@@ -130,7 +131,17 @@
 
 /* AGENDA */
 
+.info-agenda{
+    font-family: var(--navBotao);
+    background: var(--intercalado);
+}
 
+.dia-semana{
+    background: var(--hover);
+    color: var(--branco);
+    padding-top: 5px;
+    border-radius: 100px;
+}
 
 /* FIM AGENDA */
 
