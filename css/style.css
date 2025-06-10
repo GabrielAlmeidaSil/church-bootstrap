@@ -18,6 +18,7 @@
     --corLogo: #7363EA;
     --header: #2F2965;
     --hover: #1f1a4f;
+    --bg-agenda: #f0f2f8;
     --intercalado: #ECECEC;
     --footer: #2F2965;
     --linkfooter: #A9B0B3;
@@ -111,7 +112,7 @@
 /* ABOUT */
 
 .about{
-    margin-bottom: 7rem;
+    margin-bottom: 3rem;
 }
 
 .img-about{
@@ -135,6 +136,17 @@
 
 /* AGENDA */
 
+/*  .info-agenda:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease-in-out;
+}  */
+
+.agenda{
+    margin-bottom: 7rem;
+    background: var(--bg-agenda);
+}
+
 .ende-titulo{
     text-decoration: none;
     color: var(--preto);
@@ -146,19 +158,15 @@
 
 .info-agenda{
     font-family: var(--navBotao);
-    background: var(--intercalado);
+    background: var(--branco);
     border-left: 5px solid var(--hover);
 }
 
 .semana{
     background: var(--hover);
     color: var(--branco);
-    padding-top: 5px;
     border-radius: 100px;
-}
-
-.dia-semana{
-    font-size: 1.9rem;
+    width: 110px;
 }
 
 
@@ -182,6 +190,7 @@
     border-top: 4px solid var(--preto);
     border-bottom: 4px solid var(--preto);
     height: 402px;
+    box-shadow: 0px 2px 5px var(--preto);
 }
 
 .titulo-loja{

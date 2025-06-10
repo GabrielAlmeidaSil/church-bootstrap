@@ -53,7 +53,7 @@
                         </li>
 
                         <li class="nav-item fs-5">
-                            <a class="nav-link" href="#">Agenda</a>
+                            <a class="nav-link" href="#agenda">Agenda</a>
                         </li>
 
                         <li class="nav-item fs-5">
@@ -125,20 +125,24 @@
 
     <!-- AGENDA -->
 
-    <section class="agenda">
+    <section class="agenda py-5" id="agenda">
         <h2 class="titulo fw-semibold text-center">Agenda Semanal - Junho</h2>
+
+        <p class="text-center text-muted mb-5">
+            Confira os encontros desta semana em nossa comunidade.
+        </p>
+
         <p class="text-center">
             <i class="bi bi-geo-alt"></i>
             <a href="#" class="ende-titulo">Rua fictícia, 123 - Centro</a>
         </p>
-
-        <div class="container d-flex justify-content-center align-items-center pt-4">
-
+        <div class="container-fluid d-flex justify-content-center align-items-center">
+            
             <!-- Agenda 1 -->
-            <div class="d-flex flex-column">
-                <div class="info-agenda d-flex align-items-center mx-1 my-3 p-3 rounded shadow">
-                    <div class="semana fw-semibold px-4 fs-2 me-3">
-                        <p class="dia-semana">QUA</p>
+            <div class="d-flex flex-column gap-4">
+                <div class="info-agenda d-flex align-items-center mx-1 p-3 rounded shadow" data-aos="flip-right" data-aos-delay="200">
+                    <div class="semana fw-semibold px-4 py-2 fs-2 me-3">
+                        QUA
                     </div>
                     <div class="texto-agenda">
                         <p>Culto da Luz - 14/06/2025</p>
@@ -154,9 +158,9 @@
                 </div>
 
                 <!-- Agenda 2 -->
-                 <div class="info-agenda d-flex align-items-center mx-1 my-3 p-3 rounded shadow">
-                    <div class="semana fw-semibold px-4 fs-2 me-3">
-                        <p class="dia-semana">SAB</p>
+                <div class="info-agenda d-flex align-items-center mx-1 my-3 p-3 rounded shadow" data-aos="flip-left" data-aos-delay="300">
+                    <div class="semana fw-semibold px-4 py-2 fs-2 me-3">
+                        SAB
                     </div>
                     <div class="texto-agenda">
                         <p>Encontro com a Palavra - 17/06/2025</p>
@@ -174,9 +178,9 @@
                 </div>
 
                 <!-- Agenda 3 -->
-                 <div class="info-agenda d-flex align-items-center mx-1 my-3 p-3 rounded shadow">
-                    <div class="semana fw-semibold px-4 fs-2 me-3">
-                        <p class="dia-semana">DOM</p>
+                <div class="info-agenda d-flex align-items-center mx-1 my-3 p-3 rounded shadow" data-aos="flip-right" data-aos-delay="400">
+                    <div class="semana fw-semibold px-4 py-2 fs-2 me-3">
+                        DOM
                     </div>
                     <div class="texto-agenda">
                         <p>Vigília Restauradora - 18/06/2025</p>
@@ -188,7 +192,7 @@
 
                             <span class="badge bg-success">Presencial</span>
                         </p>
-                        
+
                     </div>
                 </div>
             </div>
@@ -221,10 +225,10 @@
 
 
     <!-- EVENTOS -->
-    
+
     <section class="container-fluid section-eventos" id="eventos">
-        <div class="container my-5 py-5">
-            <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+        <div class="container mt-5 py-2">
+            <div class="d-flex justify-content-between align-items-center  flex-wrap gap-2">
                 <!-- titulo e linha -->
                 <div class="d-flex align-items-center flex-grow-1">
                     <h2 class="titulo pt-5 me-3 mb-0 fw-semibold">Eventos</h2>
@@ -283,7 +287,7 @@
             </div>
 
             <!-- EVENTO 3 -->
-            <div class="card-eventos mt-5 shadow" data-aos="zoom-in">
+            <div class="card-eventos my-5 shadow" data-aos="zoom-in">
                 <div class="row align-items-center text-center text-lg-start">
                     <!-- DATA -->
                     <div class="col-lg-2 col-12 text-center fs-4">24 <br> AGO</div>
@@ -365,7 +369,7 @@
 
                     <div class="d-flex flex-column gap-2">
                         <a href="#inicio">Inicio</a>
-                        <a href="#sobre">Sobre Nós</a>
+                        <a href="#about">Sobre Nós</a>
                         <a href="#agenda">Agenda Semanal</a>
                         <a href="#loja">Nossa Loja</a>
                         <a href="#eventos">Eventos</a>
