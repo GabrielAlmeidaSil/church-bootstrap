@@ -96,7 +96,7 @@ html {
 
 /* MAIN */
 
- .main{
+/*  .main{
     background-image: url(../img/poster-main/poster-main.webp);
     background-position: center center;
     background-repeat: no-repeat;
@@ -108,7 +108,46 @@ html {
 
 .versiculo{
     font-family: var(--versiculo);
+} */
+
+/* .carousel-slide, #carouselSection, .carousel{
+    height: 100vh;
+} */
+
+ 
+#mainCarousel,
+.carousel-item,
+.carousel-img {
+height: 100vh;
 }
+
+.carousel-img {
+object-fit: cover;
+}
+
+.carousel-caption {
+top: 0;
+bottom: 0;
+}
+
+
+.carousel-item::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.carousel-caption {
+  z-index: 2;
+  color: white;
+}
+
+.versiculo{
+    font-family: var(--versiculo);
+}
+
 
 /* FIM MAIN */
 
