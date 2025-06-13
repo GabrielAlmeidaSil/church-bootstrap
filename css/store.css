@@ -96,3 +96,13 @@ html {
 /* FIM CARD */
 
 /* FIM MAIN */
+
+
+
+/* MEDIA PARA OS CARDS (TELAS MENORES QUE 375px) */
+@media (max-width: 374px) {
+  .col-custom-12 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
