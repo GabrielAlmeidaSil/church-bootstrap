@@ -34,7 +34,7 @@
             <div class="container">
                 <!-- Logo -->
 
-                <a href="#inicio" class="navbar-brand logo-header link-light fs-1 fw-semibold">
+                <a href="#inicioStore" class="navbar-brand logo-header link-light fs-1 fw-semibold">
                     <!-- <img src="img/logo-church.png" alt="" class="img-fluid img-header rounded"> -->
                     Church
                 </a>
@@ -48,15 +48,15 @@
                 <div class="collapse navbar-collapse justify-content-end" id="menu">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item fs-5">
-                            <a class="nav-link" href="index.html #inicio">Início</a>
+                            <a class="nav-link" href="index.html#inicio">Início</a>
                         </li>
 
                         <li class="nav-item fs-5">
-                            <a class="nav-link" href="index.html #about">Sobre</a>
+                            <a class="nav-link" href="./index.html#about">Sobre</a> <!-- !! TESTAR SE FUNCIONAR !! -->
                         </li>
 
                         <li class="nav-item fs-5">
-                            <a class="nav-link" href="index.html #agenda">Agenda</a>
+                            <a class="nav-link" href="index.html#agenda">Agenda</a>
                         </li>
 
                         <li class="nav-item fs-5">
@@ -64,7 +64,7 @@
                         </li>
 
                         <li class="nav-item fs-5">
-                            <a class="nav-link" href="index.html #eventos">Eventos</a>
+                            <a class="nav-link" href="index.html#eventos">Eventos</a>
                         </li>
 
                         <li class="nav-item fs-5">
@@ -84,21 +84,26 @@
 
     <!-- MAIN -->
 
-    <main class="container pb-4">
+    <main class="container pb-4" id="inicioStore">
         <div class="d-flex justify-content-between align-items-center mt-5">
             <h1 class="title-main">Loja da Igreja</h1>
 
             
 
             <p>
+                <label>
+                    Gênero:
+                    <select name="" id="">
+                        <option value="">Masculino</option>
+                        <option value="">Feminino</option>
+                    </select>
+                </label>
+
                 <select name="Filtros" id="">
                     <option value="Camisas">Camisas</option>
-                    <option value="Camisas">Camisas</option>
-                    <option value="Camisas">Camisas</option>
-                    <option value="Camisas">Camisas</option>
-                    <option value="Camisas">Camisas</option>
-                    <option value="Camisas">Camisas</option>
-                    <option value="Camisas">Camisas</option>
+                    <option value="Camisas">Moletom</option>
+                    <option value="Camisas">Calças</option>
+                    <option value="Camisas">Bonés</option>
                 </select>
             </p>
         </div>
@@ -184,7 +189,7 @@
 
         <!-- MOLETOM  -->
         <section class="moletom my-5">
-            <h3>Moletons</h3>
+            <h3>Moletom</h3>
 
             <div class="card-store">
                 <div class="row g-4">
