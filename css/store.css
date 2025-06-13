@@ -81,3 +81,12 @@ html {
 }
 
 /* FIM OPCOES */
+
+
+/* MAIN */
+
+.title-main{
+    font-family: var(--titulo-seção);
+}
+
+/* FIM MAIN */
