@@ -96,25 +96,6 @@ html {
 
 
 /* MAIN */
-
-/*  .main{
-    background-image: url(../img/poster-main/poster-main.webp);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    color: var(--branco);
-    margin-bottom: 3rem;
-} 
-
-.versiculo{
-    font-family: var(--versiculo);
-} */
-
-/* .carousel-slide, #carouselSection, .carousel{
-    height: 100vh;
-} */
-
  
 #mainCarousel,
 .carousel-item,
@@ -153,18 +134,6 @@ bottom: 0;
     font-family: var(--titulo-seção);
 }
 
-/* .btn-main{
-    background: var(--header);
-    color: var(--branco);
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.btn-main:hover{
-    color: var(--hover);
-    transition: .3s;
-} */
-
 
 /* FIM MAIN */
 
@@ -196,11 +165,6 @@ bottom: 0;
 
 /* AGENDA */
 
-/*  .info-agenda:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-  transition: 0.3s ease-in-out;
-}  */
 
 .agenda{
     margin-bottom: 7rem;
