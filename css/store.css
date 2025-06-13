@@ -86,7 +86,7 @@ html {
 /* MAIN */
 
 .title-main{
-    font-family: var(--titulo-seção);
+    font-family: var(--navBotao);
 }
 
 /* CARD */
