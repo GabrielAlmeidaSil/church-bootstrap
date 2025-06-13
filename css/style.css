@@ -59,6 +59,11 @@ html {
   transition: .3s;
 }
 
+.icone{
+    color: var(--header);
+    font-size: 1.4rem;
+}
+
 
 /* FIM GERAIS */
 
@@ -240,12 +245,6 @@ bottom: 0;
     cursor: pointer;
     text-decoration: underline;
 }
-
-.icone{
-    color: var(--header);
-    font-size: 1.4rem;
-}
-
 
 
 /* FIM EVENTOS */
