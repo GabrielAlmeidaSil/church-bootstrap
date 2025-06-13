@@ -1,3 +1,5 @@
+/* MAIN CSS */
+
 @charset "UTF-8";
 
 /* Importação do Google Fontes */
@@ -67,17 +69,13 @@ html {
 .header{
     font-family: var(--navBotao);
     background-color: var(--header);
-    border-bottom: 2px solid var(--branco);
+    /* border-bottom: 2px solid var(--branco); */
 }
 
 .logo-header{
     font-family: var(--titulo-header);
 }
 
-.img-header{
-    width: 70px;
-    height: 70px;
-}
 
 /* menu */
 .navbar-nav{
