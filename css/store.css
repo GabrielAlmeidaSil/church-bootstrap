@@ -65,7 +65,7 @@ html {
 
 /* OPCOES */
 
-.opcoes{
+/* .opcoes{
     background: var(--hover);
     font-family: var(--navBotao);
 }
@@ -78,7 +78,16 @@ html {
 .list-inline-item a:hover{
     color: var(--corLogo);
     transition: .3s;
+} */
+
+/* HEADER */
+
+.cart{
+    color: var(--branco);
+    font-size: 1.4rem;
 }
+
+/* FIM HEADER */
 
 /* FIM OPCOES */
 
