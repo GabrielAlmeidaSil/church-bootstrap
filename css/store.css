@@ -3,21 +3,21 @@
 @charset "UTF-8";
 
 /* Importação do Google Fontes */
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* FONTES */
-:root{
+:root {
     --navBotao: "Inter Tight", sans-serif;
     --titulo-header: "Montserrat Alternates", sans-serif;
     --titulo-seção: "Inter Tight", sans-serif;
-    --titulo-store: "Righteous", sans-serif;
+    --titulo-store: "Dancing Script";
     --paragrafos: "Open Sans", sans-serif;
     --versiculo: "Playfair Display", serif;
     --footer: "Inter Tight", sans-serif;
 }
 
 /* CORES */
-:root{
+:root {
     --corLogo: #7363EA;
     --header: #2F2965;
     --hover: #1f1a4f;
@@ -33,16 +33,18 @@
 /* GERAIS */
 
 html {
-  scroll-padding-top: 100px; /* arrumar a navegação do meu header */
+    scroll-padding-top: 100px;
+    /* arrumar a navegação do meu header */
 }
 
-.titulo{
+.titulo {
     font-family: var(--titulo-seção);
     color: var(--preto);
 }
 
 
-.btn-geral, .btn-main{
+.btn-geral,
+.btn-main {
     background: var(--header);
     color: var(--branco);
     font-weight: bold;
@@ -55,19 +57,20 @@ html {
     text-decoration: none;
 }
 
-.btn-geral:hover, .btn-main:hover {
-  background-color: var(--hover);
-  transition: .3s;
+.btn-geral:hover,
+.btn-main:hover {
+    background-color: var(--hover);
+    transition: .3s;
 }
 
-.arrumar-header{
+.arrumar-header {
     height: 90px;
 }
 
 
 /* HEADER */
 
-.cart{
+.cart {
     color: var(--branco);
     font-size: 1.4rem;
 }
@@ -78,12 +81,13 @@ html {
 
 /* MAIN */
 
-.title-main{
-    font-family: var(--titulo-seção);
+.title-main {
+    font-family: var(--titulo-store);
+    font-weight: bold;
     font-size: 2.7rem;
 }
 
-.btn-cart{
+.btn-cart {
     white-space: nowrap;
 }
 
@@ -93,8 +97,8 @@ html {
 
 /* MEDIA PARA OS CARDS (TELAS MENORES QUE 375px) */
 @media (max-width: 374px) {
-  .col-custom-12 {
-    flex: 0 0 100% !important;
-    max-width: 100% !important;
-  }
+    .col-custom-12 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
 }
