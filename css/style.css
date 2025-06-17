@@ -169,7 +169,7 @@ bottom: 0;
 /* AGENDA */
 
 
-.agenda{
+/* .agenda{
     margin-bottom: 7rem;
     background: var(--bg-agenda);
 }
@@ -198,6 +198,35 @@ bottom: 0;
 
 .texto-agenda{
     font-size: 1.3rem;
+}  */
+
+.agenda{
+    background: var(--bg-agenda);
+    margin-bottom: 6rem;
+}
+
+.endereco-agenda{
+    color: #1C1C1C;
+    text-decoration: none;
+}
+
+.endereco-agenda:hover{
+    text-decoration: underline;
+}
+
+.card-agenda{
+    background: var(--branco);
+    border-left: 5px solid var(--hover);
+}
+
+.agenda-semana{
+    background: var(--hover); 
+    color: var(--branco);
+    border-radius: 50px;
+}
+
+.modalidade-agenda{
+    white-space: nowrap;
 }
 
 /* FIM AGENDA */
@@ -263,7 +292,8 @@ footer a{
 
 footer a:hover{
     text-decoration: underline;
-    color: var(--branco);
+    /* color: var(--branco); */
+    color: var(--corLogo);
     transition: .3s;
 }
 
