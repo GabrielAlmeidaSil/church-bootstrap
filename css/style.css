@@ -20,6 +20,7 @@
     --corLogo: #7363EA;
     --header: #2F2965;
     --hover: #1f1a4f;
+    --hoverheader: #C8A2C8;
     --bg-agenda: #f0f2f8;
     --intercalado: #ECECEC;
     --footer: #2F2965;
@@ -77,6 +78,11 @@ html {
     border-bottom: 2px solid var(--branco); 
 }
 
+.img-header{
+    width: 70px;
+    height: 70px;
+}
+
 .logo-header{
     font-family: var(--titulo-header);
 }
@@ -92,7 +98,18 @@ html {
     color: var(--branco);
 }
 
+.navbar-nav .nav-link:hover{
+    color: var(--hoverheader);
+}
 
+.navbar-toggler {
+    border: 2px solid var(--branco) !important;
+    border-radius: 5px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
 
 /* FIM HEADER */
 
@@ -168,37 +185,6 @@ bottom: 0;
 
 /* AGENDA */
 
-
-/* .agenda{
-    margin-bottom: 7rem;
-    background: var(--bg-agenda);
-}
-
-.ende-titulo{
-    text-decoration: none;
-    color: var(--preto);
-}
-
-.ende-titulo:hover{
-    text-decoration: underline;
-}
-
-.info-agenda{
-    font-family: var(--navBotao);
-    background: var(--branco);
-    border-left: 5px solid var(--hover);
-}
-
-.semana{
-    background: var(--hover);
-    color: var(--branco);
-    border-radius: 100px;
-    width: 110px;
-}
-
-.texto-agenda{
-    font-size: 1.3rem;
-}  */
 
 .agenda{
     background: var(--bg-agenda);
