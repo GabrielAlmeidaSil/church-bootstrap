@@ -33,7 +33,6 @@
 
 html {
     scroll-padding-top: 100px;
-    /* arrumar a navegação do meu header */
 }
 
 .titulo {
@@ -105,10 +104,6 @@ select {
 }
 
 
-/* .btn-post {
-    white-space: nowrap;
-} */
-
 /* FIM MAIN */
 
 
@@ -119,4 +114,59 @@ select {
         flex: 0 0 100% !important;
         max-width: 100% !important;
     }
+}
+
+
+/* DETALHES DOS EVENTOS (outra página)*/
+
+.navegation a{
+    color: var(--preto);
+    text-decoration: none;
+}
+
+.navegation a:hover{
+    text-decoration: underline;
+}
+
+.icon-navegation{
+    color: gray;
+}
+
+/* imagem */
+
+.img-evento {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* fim imagem */
+
+.info-evento h1{
+    font-family: var(--versiculo);
+}
+
+.descricao-evento{
+    text-align: justify;
+   /*  background: #f9f9f9; */
+}
+
+.btn-evento{
+    background: var(--header);
+    color: var(--branco);
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.btn-evento:hover{
+    background: var(--hover);
+    transition: .3s;
 }

@@ -155,6 +155,8 @@ bottom: 0;
 }
 
 
+
+
 /* FIM MAIN */
 
 
@@ -257,6 +259,19 @@ bottom: 0;
 .nome-evento:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+
+.evento-btn{
+    text-decoration: none;
+    color: var(--branco);
+    background: var(--header);
+    border-radius: 50px;
+    white-space: nowrap;
+}
+
+.evento-btn:hover{
+    background: var(--hover);
+    transition: .3s;
 }
 
 
