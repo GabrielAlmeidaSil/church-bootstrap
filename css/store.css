@@ -149,10 +149,31 @@ select {
     font-family: var(--versiculo);
 }
 
-.descricao-evento{
+/* descricao */
+.descricao-evento {
     text-align: justify;
-   /*  background: #f9f9f9; */
 }
+
+/* info pastor */
+.info-pastor{
+    background: linear-gradient(135deg, #f8f9fa, #e8eaf6);
+}
+
+.pastor-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.icone-pastor:hover{
+    cursor: pointer;
+    color: var(--header);
+}
+
+/* fim info pastor */
+
 
 .btn-evento{
     background: var(--header);
