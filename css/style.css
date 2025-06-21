@@ -284,6 +284,7 @@ bottom: 0;
     background: var(--preto);
     color: var(--branco);
     font-family: var(--navBotao);
+    border-top: 2px solid #5a4fcf ;
 }
 
 footer a{
