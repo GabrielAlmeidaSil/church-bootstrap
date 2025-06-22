@@ -23,6 +23,7 @@
     --hover: #1f1a4f;
     --bg-agenda: #f0f2f8;
     --intercalado: #ECECEC;
+    --bg-select: #f8f8f8;
     --footer: #2F2965;
     --linkfooter: #A9B0B3;
     --branco: #fff;
@@ -83,15 +84,14 @@ html {
     font-family: var(--titulo-store);
     font-weight: bold;
     font-size: 3.7rem;
-    /* 2.7 */
 }
 
 
 select {
     padding: 0.5rem 1rem;
     border-radius: 8px;
-    border: 1px solid #ccc;
-    background-color: #f8f8f8;
+    border: 1px solid var(--linkfooter);
+    background-color: var(--bg-select);
     font-weight: 500;
     outline: none;
 }
@@ -130,7 +130,7 @@ select {
 }
 
 .icon-navegation {
-    color: gray;
+    color: var(--linkfooter);
 }
 
 /* imagem */

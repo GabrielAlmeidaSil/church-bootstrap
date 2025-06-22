@@ -24,6 +24,7 @@
     --bg-agenda: #f0f2f8;
     --intercalado: #ECECEC;
     --footer: #2F2965;
+    --borderFooter: #5a4fcf;
     --linkfooter: #A9B0B3;
     --branco: #fff;
     --preto: #1C1C1C;
@@ -63,6 +64,10 @@ html {
 .icone{
     color: var(--header);
     font-size: 1.4rem;
+}
+
+img{
+    -webkit-user-drag: none;
 }
 
 
@@ -143,7 +148,7 @@ bottom: 0;
 }
 .carousel-caption {
   z-index: 2;
-  color: white;
+  color: var(--branco);
 }
 
 .versiculo{
@@ -194,7 +199,7 @@ bottom: 0;
 }
 
 .endereco-agenda{
-    color: #1C1C1C;
+    color: var(--preto);
     text-decoration: none;
 }
 
@@ -284,7 +289,7 @@ bottom: 0;
     background: var(--preto);
     color: var(--branco);
     font-family: var(--navBotao);
-    border-top: 2px solid #5a4fcf ;
+    border-top: 2px solid var(--borderFooter) ;
 }
 
 footer a{
