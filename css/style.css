@@ -54,10 +54,12 @@ html {
     outline: none;
     border: none;
     text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .btn-geral:hover, .btn-main:hover {
   background-color: var(--hover);
+  transform: scale(1.07);
   transition: .3s;
 }
 
@@ -101,6 +103,9 @@ img{
 
 .navbar .navbar-nav .nav-link {
     color: var(--branco);
+    margin: 0 8px;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 
 .navbar-nav .nav-link:hover{
@@ -126,6 +131,7 @@ img{
 .carousel-item,
 .carousel-img {
 height: 100vh;
+box-shadow: 3px 3px 6px #30303081;
 }
 
 .carousel-img {
@@ -196,6 +202,7 @@ bottom: 0;
 .agenda{
     background: var(--bg-agenda);
     margin-bottom: 6rem;
+    box-shadow: 0 4px 8px #0000001a;
 }
 
 .endereco-agenda{
@@ -252,6 +259,7 @@ bottom: 0;
     background: var(--intercalado);
     margin-top: 7rem;
     margin-bottom: 7rem;
+    box-shadow: 0 6px 12px #00000026;
 }
 
 .card-eventos{
