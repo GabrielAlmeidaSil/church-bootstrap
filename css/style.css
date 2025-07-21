@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Righteous&display=swap');
 
 /* FONTES */
-:root{
+:root {
     --navBotao: "Inter Tight", sans-serif;
     --titulo-header: "Montserrat Alternates", sans-serif;
     --titulo-seção: "Inter Tight", sans-serif;
@@ -16,7 +16,7 @@
 }
 
 /* CORES */
-:root{
+:root {
     --corLogo: #7363EA;
     --header: #2F2965;
     --hover: #1f1a4f;
@@ -34,16 +34,17 @@
 /* GERAIS */
 
 html {
-  scroll-padding-top: 100px;
+    scroll-padding-top: 100px;
 }
 
-.titulo{
+.titulo {
     font-family: var(--titulo-seção);
     color: var(--preto);
 }
 
 
-.btn-geral, .btn-main{
+.btn-geral,
+.btn-main {
     background: var(--header);
     color: var(--branco);
     font-weight: bold;
@@ -54,22 +55,23 @@ html {
     outline: none;
     border: none;
     text-decoration: none;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-.btn-geral:hover, .btn-main:hover {
-  background-color: var(--hover);
-  transform: scale(1.07);
-  transition: .3s;
-  box-shadow: 0 0 12px 2px #e4e4e466;
+.btn-geral:hover,
+.btn-main:hover {
+    background-color: var(--hover);
+    transform: scale(1.07);
+    transition: .3s;
+    box-shadow: 0 0 12px 2px #e4e4e466;
 }
 
-.icone{
+.icone {
     color: var(--header);
     font-size: 1.4rem;
 }
 
-img{
+img {
     -webkit-user-drag: none;
 }
 
@@ -80,24 +82,24 @@ img{
 
 /* HEADER */
 
-.header{
+.header {
     font-family: var(--navBotao);
     background: linear-gradient(to right, #2F2965, #1E1A47);
-    border-bottom: 2px solid var(--branco); 
+    border-bottom: 2px solid var(--branco);
 }
 
-.img-header{
+.img-header {
     width: 70px;
     height: 70px;
 }
 
-.logo-header{
+.logo-header {
     font-family: var(--titulo-header);
 }
 
 
 /* menu */
-.navbar-nav{
+.navbar-nav {
     display: flex;
     gap: 8px;
 }
@@ -109,8 +111,9 @@ img{
     letter-spacing: 1px;
 }
 
-.navbar-nav .nav-link:hover{
-    color: var(--hoverheader);
+.navbar-nav .nav-link:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.9), 0 0 12px rgba(255, 255, 255, 0.7);
+    transition: .2s;
 }
 
 .navbar-toggler {
@@ -127,46 +130,49 @@ img{
 
 
 /* MAIN */
- 
+
 #mainCarousel,
 .carousel-item,
 .carousel-img {
-height: 100vh;
-box-shadow: 3px 3px 6px #30303081;
+    height: 100vh;
+    box-shadow: 3px 3px 6px #30303081;
 }
 
 .carousel-img {
-object-fit: cover;
+    object-fit: cover;
 }
 
 .carousel-caption {
-top: 0;
-bottom: 0;
+    top: 0;
+    bottom: 0;
 }
 
 
 .carousel-item::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 1;
-}
-.carousel-caption {
-  z-index: 2;
-  color: var(--branco);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
-.versiculo{
+.carousel-caption {
+    z-index: 2;
+    color: var(--branco);
+}
+
+.versiculo {
     font-family: var(--versiculo);
 }
 
-.title-main{
+.title-main {
     font-family: var(--titulo-seção);
 }
 
-.btn-main{
+.btn-main {
     background: linear-gradient(190deg, #2F2965, #1f1c3f);
 
 }
@@ -179,17 +185,17 @@ bottom: 0;
 
 /* ABOUT */
 
-.about{
+.about {
     margin-bottom: 3rem;
 }
 
-.paragrafo-about{
+.paragrafo-about {
     font-family: var(--paragrafos);
     text-align: justify;
     line-height: 1.8rem;
 }
 
-.btn-about{
+.btn-about {
     background: var(--corLogo);
     color: var(--branco);
 }
@@ -200,33 +206,33 @@ bottom: 0;
 /* AGENDA */
 
 
-.agenda{
+.agenda {
     background: var(--bg-agenda);
     margin-bottom: 6rem;
     box-shadow: 0 4px 8px #0000001a;
 }
 
-.endereco-agenda{
+.endereco-agenda {
     color: var(--preto);
     text-decoration: none;
 }
 
-.endereco-agenda:hover{
+.endereco-agenda:hover {
     text-decoration: underline;
 }
 
-.card-agenda{
+.card-agenda {
     background: var(--branco);
     border-left: 5px solid var(--hover);
 }
 
-.agenda-semana{
-    background: var(--hover); 
+.agenda-semana {
+    background: var(--hover);
     color: var(--branco);
     border-radius: 50px;
 }
 
-.modalidade-agenda{
+.modalidade-agenda {
     white-space: nowrap;
 }
 
@@ -235,7 +241,7 @@ bottom: 0;
 
 /* LOJA */
 
-.loja{
+.loja {
     background-image: url(../img/bg-loja.jpg);
     background-position: left center;
     background-repeat: no-repeat;
@@ -248,7 +254,7 @@ bottom: 0;
     box-shadow: 0px 2px 5px var(--preto);
 }
 
-.titulo-loja{
+.titulo-loja {
     font-family: var(--titulo-seção);
 }
 
@@ -256,30 +262,30 @@ bottom: 0;
 
 
 /* EVENTOS */
-.section-eventos{
+.section-eventos {
     background: var(--intercalado);
     margin-top: 7rem;
     margin-bottom: 7rem;
     box-shadow: 0 6px 12px #00000026;
 }
 
-.card-eventos{
+.card-eventos {
     font-family: var(--paragrafos);
     background: var(--branco);
     border-radius: 10px;
     padding: 12px;
 }
 
-.line-event{
+.line-event {
     border-left: 2px solid var(--header);
 }
 
-.nome-evento:hover{
+.nome-evento:hover {
     cursor: pointer;
     text-decoration: underline;
 }
 
-.evento-btn{
+.evento-btn {
     text-decoration: none;
     color: var(--branco);
     background: var(--header);
@@ -287,10 +293,10 @@ bottom: 0;
     white-space: nowrap;
 }
 
-.evento-btn:hover{
+.evento-btn:hover {
     background: var(--hover);
     transition: .3s;
-    
+
 }
 
 
@@ -299,26 +305,26 @@ bottom: 0;
 
 /* FOOTER */
 
-.footer{
+.footer {
     background: var(--preto);
     color: var(--branco);
     font-family: var(--navBotao);
-    border-top: 2px solid var(--borderFooter) ;
+    border-top: 2px solid var(--borderFooter);
 }
 
-footer a{
+footer a {
     color: var(--linkfooter);
     text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
     text-decoration: underline;
     /* color: var(--branco); */
     color: var(--corLogo);
     transition: .3s;
 }
 
-.contato p{
+.contato p {
     margin-top: 20px;
 }
 

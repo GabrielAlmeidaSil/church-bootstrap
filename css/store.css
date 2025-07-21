@@ -189,7 +189,7 @@ select {
 /* fim info pastor */
 
 
-.btn-evento {
+.btn-evento, .btn-evento-mobile {
     background: var(--header);
     color: var(--branco);
     font-weight: bold;
@@ -204,4 +204,16 @@ select {
 .btn-evento:hover {
     background: var(--hover);
     transition: .3s;
+}
+
+@media screen and (max-width: 767px){
+    .btn-evento{
+        display: none;
+    } 
+}
+
+@media screen and (min-width: 768px){
+    .btn-evento-mobile{
+        display: none;
+    } 
 }
