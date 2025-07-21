@@ -61,6 +61,7 @@ html {
   background-color: var(--hover);
   transform: scale(1.07);
   transition: .3s;
+  box-shadow: 0 0 12px 2px #e4e4e466;
 }
 
 .icone{
@@ -81,7 +82,7 @@ img{
 
 .header{
     font-family: var(--navBotao);
-    background-color: var(--header);
+    background: linear-gradient(to right, #2F2965, #1E1A47);
     border-bottom: 2px solid var(--branco); 
 }
 
@@ -165,6 +166,11 @@ bottom: 0;
     font-family: var(--titulo-seção);
 }
 
+.btn-main{
+    background: linear-gradient(190deg, #2F2965, #1f1c3f);
+
+}
+
 
 
 
@@ -175,11 +181,6 @@ bottom: 0;
 
 .about{
     margin-bottom: 3rem;
-}
-
-.img-about{
-    width: 500px;
-    height: 500px;
 }
 
 .paragrafo-about{
@@ -269,6 +270,10 @@ bottom: 0;
     padding: 12px;
 }
 
+.line-event{
+    border-left: 2px solid var(--header);
+}
+
 .nome-evento:hover{
     cursor: pointer;
     text-decoration: underline;
@@ -285,6 +290,7 @@ bottom: 0;
 .evento-btn:hover{
     background: var(--hover);
     transition: .3s;
+    
 }
 
 
