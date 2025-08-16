@@ -24,7 +24,7 @@
     --bg-agenda: #f0f2f8;
     --intercalado: #ECECEC;
     --bg-select: #f8f8f8;
-    --footer: #2F2965;
+    --footer: #000;
     --linkfooter: #A9B0B3;
     --branco: #fff;
     --preto: #1C1C1C;
@@ -84,6 +84,12 @@ html {
     font-family: var(--titulo-store);
     font-weight: bold;
     font-size: 3.7rem;
+}
+
+.btn-filters{
+    border: 1px solid var(--preto);
+    background: var(--branco);
+    border-radius: 10px;
 }
 
 
